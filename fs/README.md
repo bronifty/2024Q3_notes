@@ -30,3 +30,4 @@ const cjsDir = (pathStr = "./") => {
 export { cjsDir };
 
 ```
+.
