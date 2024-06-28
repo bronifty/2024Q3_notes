@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "cdk/package.json.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "cdk/package.json.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "cdk/package.json.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "cdk/package.json.md"
               }
             }
           }
@@ -148,6 +148,11 @@
   },
   "active": "c14576710bcd2091",
   "lastOpenFiles": [
-    "README.md"
+    "cdk/tsconfig.json.md",
+    "cdk/package.json.md",
+    "cdk/cdk.json.md",
+    "cdk/README.md",
+    "README.md",
+    "cdk/tsconfig.json"
   ]
 }

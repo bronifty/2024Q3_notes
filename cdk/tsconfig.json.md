@@ -1,0 +1,10 @@
+```json
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "cdk",
+    "outDir": "dist"
+  }
+}
+```
+
