@@ -49,3 +49,74 @@ const apiDir = (pathStr = "./") => {
 
 export { appDir, apiDir };
 ```
+
+
+```ts
+
+import { exec } from "child_process";
+import { join, dirname } from "path";
+import { existsSync, readFileSync, writeFileSync, unlinkSync } from "node:fs";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+function metaPath(path = "") {
+  return join(__dirname, path);
+}
+
+(async () => {
+  const cdkOutputsFile = join(__dirname, `tmp.${Math.ceil(Math.random() * 10 ** 10)}.json`);
+  const configEnv = metaPath("../frontend/.env");
+  const infraPath = metaPath("../infra");
+
+  if (!existsSync(infraPath)) {
+    console.error(`Infrastructure directory not found: ${infraPath}`);
+    process.exit(1);
+  }
+
+  try {
+    const execProcess = exec(
+      `pnpm --prefix "${infraPath}" cdk deploy --outputs-file "${cdkOutputsFile}"`
+    );
+    execProcess.stdout.pipe(process.stdout);
+    execProcess.stderr.pipe(process.stderr);
+    await new Promise((resolve, reject) => {
+      execProcess.on("exit", (code) => code === 0 ? resolve() : reject(new Error(`CDK deploy failed with code ${code}`)));
+    });
+  } catch (error) {
+    console.error(`CDK command failed: ${error}`);
+    process.exit(1);
+  }
+
+  // Populate frontend config with data from outputsFile
+  try {
+    const cdkOutput = JSON.parse(readFileSync(cdkOutputsFile, 'utf-8'))["aws-sdk-js-notes-app"];
+    const config = {
+      VITE_FILES_BUCKET: cdkOutput.FilesBucket,
+      VITE_GATEWAY_URL: cdkOutput.GatewayUrl,
+      VITE_IDENTITY_POOL_ID: cdkOutput.IdentityPoolId,
+      VITE_REGION: cdkOutput.Region,
+    };
+    writeFileSync(
+      configEnv,
+      Object.entries(config)
+        .map(([key, value]) => `${key}=${value}`)
+        .join("\n")
+    );
+    console.log("Frontend config updated successfully.");
+  } catch (error) {
+    console.error(`Error while updating .env: ${error}`);
+  }
+
+  // Clean up temporary file
+  try {
+    if (existsSync(cdkOutputsFile)) {
+      unlinkSync(cdkOutputsFile);
+      console.log("Temporary file deleted successfully.");
+    }
+  } catch (error) {
+    console.error("Error while deleting temporary file:", error);
+  }
+})();
+```

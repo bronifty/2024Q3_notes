@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cdk/tsconfig.json.md",
+                "file": "fs/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cdk/tsconfig.json.md",
+                "file": "fs/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cdk/tsconfig.json.md",
+                "file": "fs/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cdk/tsconfig.json.md"
+                "file": "fs/README.md"
               }
             }
           }
@@ -148,6 +148,14 @@
   },
   "active": "c14576710bcd2091",
   "lastOpenFiles": [
+    "cloudfront/README.md",
+    "cloudfront/config.md",
+    "cloudfront/SSR.md",
+    "fs/README.md",
+    "aws-cdk/packages/aws-cdk-lib/aws-s3-deployment/README.md",
+    "aws-cdk/packages/aws-cdk-lib/aws-s3-assets/README.md",
+    "aws-cdk/packages/aws-cdk-lib/aws-cloudfront-origins/README.md",
+    "cdk/tsconfig.json.md",
     "git/lazygit.md",
     "git",
     "cdk/README.md",
@@ -156,7 +164,6 @@
     "cdk/cdk.json.md",
     "cdk/app.ts.md",
     "cdk/app-stack.ts.md",
-    "cdk/tsconfig.json.md",
     "README.md",
     "cdk/tsconfig.json"
   ]
