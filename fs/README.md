@@ -120,3 +120,9 @@ function metaPath(path = "") {
   }
 })();
 ```
+
+
+- delete all js files
+```sh
+find . -type f -name "*.js" -delete
+```

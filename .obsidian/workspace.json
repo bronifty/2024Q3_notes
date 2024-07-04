@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fs/README.md",
+                "file": "cdk/course/notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e6371e73ba048c98",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fs/README.md",
+                "file": "cdk/course/notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fs/README.md",
+                "file": "cdk/course/notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fs/README.md"
+                "file": "cdk/course/notes.md"
               }
             }
           }
@@ -148,22 +149,24 @@
   },
   "active": "c14576710bcd2091",
   "lastOpenFiles": [
+    "cdk/README.md",
     "cloudfront/README.md",
-    "cloudfront/config.md",
-    "cloudfront/SSR.md",
     "fs/README.md",
+    "cdk/course/notes.md",
+    "cdk/app-stack.ts.md",
+    "cdk/course",
+    "cloudfront/SSR.md",
+    "cloudfront/config.md",
     "aws-cdk/packages/aws-cdk-lib/aws-s3-deployment/README.md",
     "aws-cdk/packages/aws-cdk-lib/aws-s3-assets/README.md",
     "aws-cdk/packages/aws-cdk-lib/aws-cloudfront-origins/README.md",
     "cdk/tsconfig.json.md",
     "git/lazygit.md",
     "git",
-    "cdk/README.md",
     "cdk/package.json.md",
     "cdk/fs.ts.md",
     "cdk/cdk.json.md",
     "cdk/app.ts.md",
-    "cdk/app-stack.ts.md",
     "README.md",
     "cdk/tsconfig.json"
   ]
