@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cdk/dynamodb.md",
+                "file": "cdk/patterns.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cdk/dynamodb.md",
+                "file": "cdk/patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cdk/dynamodb.md",
+                "file": "cdk/patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cdk/dynamodb.md"
+                "file": "cdk/patterns.md"
               }
             }
           }
@@ -161,8 +161,9 @@
   },
   "active": "645427aee607b54d",
   "lastOpenFiles": [
-    "cdk/file structure/app-stack.ts.md",
     "cdk/dynamodb.md",
+    "cdk/patterns.md",
+    "cdk/file structure/app-stack.ts.md",
     "cdk/file structure",
     "README.md",
     "cdk/file structure/tsconfig.json.md",
@@ -196,7 +197,6 @@
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/lib/init-templates/sample-app/go/README.md",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/lib/init-templates/sample-app/fsharp/README.template.md",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/lib/init-templates/sample-app/csharp/README.template.md",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/lib/init-templates/lib/typescript/README.template.md",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk-lib/cloudformation-include/doc-images/unprocessed-template.png",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk-lib/cloudformation-include/doc-images/processed-template.png",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk-lib/aws-synthetics/images/ui-screenshot.png",
