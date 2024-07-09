@@ -5,8 +5,12 @@
 cdk init app --language typescript
 cdk bootstrap
 cdk synth
+cdk diff
 cdk deploy
 cdk destroy
+
 ```
+
+
 
 
