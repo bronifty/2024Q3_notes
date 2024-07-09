@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cdk/README.md",
+                "file": "cdk/file structure/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aws/aws api reference > api gateway get connection.md",
+                "file": "cdk/dynamodb.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aws/aws api reference > api gateway get connection.md",
+                "file": "cdk/dynamodb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aws/aws api reference > api gateway get connection.md",
+                "file": "cdk/dynamodb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "aws/aws api reference > api gateway get connection.md"
+                "file": "cdk/dynamodb.md"
               }
             }
           }
@@ -161,10 +161,21 @@
   },
   "active": "645427aee607b54d",
   "lastOpenFiles": [
-    "aws/aws developer guide > apigateway.md",
+    "cdk/file structure/app-stack.ts.md",
+    "cdk/dynamodb.md",
+    "cdk/file structure",
+    "README.md",
+    "cdk/file structure/tsconfig.json.md",
+    "cdk/file structure/README.md",
+    "cdk/file structure/package.json.md",
+    "cdk/file structure/fs.ts.md",
+    "cdk/file structure/cdk.json.md",
+    "cdk/file structure/app.ts.md",
+    "cdk/course/notes.md",
+    "fs/README.md",
     "aws/aws api reference > api gateway get connection.md",
+    "aws/aws developer guide > apigateway.md",
     "aws/aws developer guide > cloudfront.md",
-    "cdk/README.md",
     "aws",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/cdk.out/read.26844.1.lock",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/cdk.out/cdk.out",
@@ -174,7 +185,6 @@
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/cdk.out/chat-app.template.json",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/cdk.out/asset.1b868e542e2a9db7c1372e79b3bc248e0a24d7e9a4d29f2957c582bba8e41483/sendmessageLambda.js",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/cdk.out/asset.1b868e542e2a9db7c1372e79b3bc248e0a24d7e9a4d29f2957c582bba8e41483/package.json",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/cdk.out/asset.1b868e542e2a9db7c1372e79b3bc248e0a24d7e9a4d29f2957c582bba8e41483",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/README.md",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/CONTRIBUTING.md",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/typescript/SECURITY.md",
@@ -187,16 +197,6 @@
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/lib/init-templates/sample-app/fsharp/README.template.md",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/lib/init-templates/sample-app/csharp/README.template.md",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/lib/init-templates/lib/typescript/README.template.md",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/lib/init-templates/app/typescript/README.md",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/lib/init-templates/app/python/README.template.md",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/lib/init-templates/app/javascript/README.md",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/lib/init-templates/app/java/README.md",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/lib/init-templates/app/go/README.md",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/lib/init-templates/app/fsharp/README.md",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/lib/init-templates/app/csharp/README.md",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/constructs/README.md",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/constructs/CONTRIBUTING.md",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/constructs/CODE_OF_CONDUCT.md",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk-lib/cloudformation-include/doc-images/unprocessed-template.png",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk-lib/cloudformation-include/doc-images/processed-template.png",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk-lib/aws-synthetics/images/ui-screenshot.png",
