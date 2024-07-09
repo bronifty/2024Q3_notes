@@ -103,3 +103,7 @@ export const handler = async () => {
 ### aws cdk examples > websocket lambda dynamodb
 
 - using low level cfn apis for apigateway
+
+### cdk course passing props across stacks via interfaces
+
+-
