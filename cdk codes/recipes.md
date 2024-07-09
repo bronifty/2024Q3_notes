@@ -1,6 +1,7 @@
 ### Stack Suffix
 
 ```ts
+// ./utils.ts
 import * as cdk from "aws-cdk-lib";
 
 export function getSuffixFromStack(stack: cdk.Stack) {
@@ -35,6 +36,7 @@ The purpose of this code is to create a unique identifier for the S3 bucket name
 In the constructor, this suffix is then used to create a unique bucket name:
 
 ```ts
+// stack.ts
 import * as cdk from "aws-cdk-lib";
 import { Construct } from "constructs";
 import { getSuffixFromStack } from "./utils";
