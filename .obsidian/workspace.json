@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cdk codes/recipes.md",
+                "file": "cdk codes/concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cors",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cdk codes/recipes.md",
+                "file": "cdk codes/concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cdk codes/recipes.md",
+                "file": "cdk codes/concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cdk codes/recipes.md"
+                "file": "cdk codes/concepts.md"
               }
             }
           }
@@ -148,42 +148,42 @@
   },
   "active": "645427aee607b54d",
   "lastOpenFiles": [
+    "repos/amazon-cloudfront-functions/verify-jwt/test-objects/invalid-nbe-jwt.json",
+    "repos/amazon-cloudfront-functions/verify-jwt/test-objects/valid-jwt.json",
+    "repos/amazon-cloudfront-functions/verify-jwt/test-objects/missing-jwt.json",
+    "repos/amazon-cloudfront-functions/verify-jwt/test-objects/invalid-jwt.json",
+    "repos/amazon-cloudfront-functions/verify-jwt/test-objects/expired-jwt.json",
+    "repos/amazon-cloudfront-functions/verify-jwt/test-objects",
+    "repos/amazon-cloudfront-functions/verify-jwt/index.js",
+    "repos/amazon-cloudfront-functions/verify-jwt/generate-jwt.sh",
+    "repos/amazon-cloudfront-functions/verify-jwt/README.md",
+    "repos/amazon-cloudfront-functions/verify-jwt",
+    "repos/amazon-cloudfront-functions/url-rewrite-single-page-apps/test-objects/no-file-name.json",
+    "repos/amazon-cloudfront-functions/url-rewrite-single-page-apps/test-objects/file-name-and-extension.json",
+    "repos/amazon-cloudfront-functions/url-rewrite-single-page-apps/README.md",
+    "repos/amazon-cloudfront-functions/redirect-based-on-country/README.md",
+    "repos/amazon-cloudfront-functions/add-true-client-ip-header/README.md",
+    "repos/amazon-cloudfront-functions/add-security-headers/README.md",
+    "repos/amazon-cloudfront-functions/add-origin-header/README.md",
+    "repos/amazon-cloudfront-functions/add-cors-header/README.md",
+    "repos/amazon-cloudfront-functions/add-cache-control-header/README.md",
+    "repos/amazon-cloudfront-functions/README.md",
+    "repos/amazon-cloudfront-functions/CONTRIBUTING.md",
+    "repos/amazon-cloudfront-functions/CODE_OF_CONDUCT.md",
     "cdk codes/patterns.md",
+    "README.md",
+    "repos/aws-cdk/packages/aws-cdk-lib/aws-cloudfront/README.md",
     "cdk codes/recipes.md",
     "cdk codes/api-reference.md",
     "cdk codes/tutorials.md",
     "cdk codes/concepts.md",
     "cdk codes/course/notes.md",
     "cdk codes/file structure/README.md",
-    "README.md",
-    "repos/aws-cdk/packages/aws-cdk-lib/aws-cloudfront/README.md",
     "repos/aws-cdk/packages/aws-cdk-lib/aws-cloudfront-origins/README.md",
-    "repos",
     "cdk/patterns.md",
     "aws/aws developer guide > cloudfront.md",
     "cdk/dynamodb.md",
     "cdk/file structure/app-stack.ts.md",
-    "cdk/file structure",
-    "cdk/file structure/tsconfig.json.md",
-    "cdk/file structure/README.md",
-    "cdk/file structure/package.json.md",
-    "cdk/file structure/fs.ts.md",
-    "cdk/file structure/cdk.json.md",
-    "cdk/file structure/app.ts.md",
-    "cdk/course/notes.md",
-    "fs/README.md",
-    "aws/aws api reference > api gateway get connection.md",
-    "aws/aws developer guide > apigateway.md",
-    "aws",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/cdk.out/read.26844.1.lock",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/cdk.out/cdk.out",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/cdk.out/manifest.json",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/cdk.out/tree.json",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/cdk.out/chat-app.assets.json",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/cdk.out/chat-app.template.json",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/cdk.out/asset.1b868e542e2a9db7c1372e79b3bc248e0a24d7e9a4d29f2957c582bba8e41483/sendmessageLambda.js",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/README.md",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk/CONTRIBUTING.md",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk-lib/cloudformation-include/doc-images/unprocessed-template.png",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk-lib/cloudformation-include/doc-images/processed-template.png",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk-lib/aws-synthetics/images/ui-screenshot.png",

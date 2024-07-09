@@ -150,3 +150,4 @@ export class CourseStack extends cdk.Stack {
   }
 }
 ```
+

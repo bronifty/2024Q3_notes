@@ -57,3 +57,7 @@ export class CourseStack extends cdk.Stack {
 This ensures that each time you deploy this stack, it creates a bucket with a unique name, avoiding naming conflicts if you deploy multiple instances of this stack.
 
 ------
+
+### HTTP Requests
+- in a file with an http extension type the url and the REST Client (humao) will provide a 'send request' button
+
