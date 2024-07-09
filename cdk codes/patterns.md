@@ -127,3 +127,26 @@ myTopic.addSubscription(new subscriptions.UrlSubscription(url.valueAsString));
 ```ts
 new CfnOutput(this, "MyTopicArn", { value: myTopic.topicArn });
 ```
+
+> CfnParameter gotcha!
+> they can be used to set properties but not the logical id, such as of the bucket. we will have to circle back to this one to set its logical id
+
+> REMINDER! here we set the property bucketName with the CfnParameter, but we can't use it to set the logical id. the course has a workaround for this. 
+```ts
+export class CourseStack extends cdk.Stack {
+  constructor(scope: Construct, id: string, props?: cdk.StackProps) {
+    super(scope, id, props);
+
+    // CfnParameter to dynamically set the name
+    const mySiteBucketName = new cdk.CfnParameter(this, "mySiteBucketName", {
+      default: "bronifty-cdk-cloudfront-kv",
+    });
+
+    // S3 bucket
+    const myBucket = new cdk.aws_s3.Bucket(this, "MyBucket", {
+      bucketName: mySiteBucketName.valueAsString,
+      removalPolicy: cdk.RemovalPolicy.DESTROY,
+    });
+  }
+}
+```
