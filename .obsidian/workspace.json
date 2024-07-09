@@ -159,10 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "645427aee607b54d",
+  "active": "b800d166c3645d86",
   "lastOpenFiles": [
-    "cdk/dynamodb.md",
+    "aws/aws developer guide > cloudfront.md",
     "cdk/patterns.md",
+    "cdk/dynamodb.md",
     "cdk/file structure/app-stack.ts.md",
     "cdk/file structure",
     "README.md",
@@ -176,7 +177,6 @@
     "fs/README.md",
     "aws/aws api reference > api gateway get connection.md",
     "aws/aws developer guide > apigateway.md",
-    "aws/aws developer guide > cloudfront.md",
     "aws",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/cdk.out/read.26844.1.lock",
     "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/cdk.out/cdk.out",

@@ -1,6 +1,6 @@
-### aws sdk v3 for js notes app
+# aws sdk v3 for js notes app
 
-- using class pattern with handlers and their permissions passed dynamically
+### using class pattern with handlers and their permissions passed dynamically
 
 ```ts
 const table = new dynamodb.Table(this, "notes", {
@@ -100,10 +100,30 @@ export const handler = async () => {
 };
 ```
 
-### aws cdk examples > websocket lambda dynamodb
+# aws cdk examples
+
+### websocket lambda dynamodb
 
 - using low level cfn apis for apigateway
 
-### cdk course passing props across stacks via interfaces
+# cdk course
+
+### passing props across stacks via interfaces
 
 -
+
+### cfnParameters and cfnOutputs
+
+- [CfnParameter Api Ref](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.CfnParameter.html)
+
+```ts
+const myTopic = new sns.Topic(this, "MyTopic");
+const url = new CfnParameter(this, "url-param");
+myTopic.addSubscription(new subscriptions.UrlSubscription(url.valueAsString));
+```
+
+- [CfnOutput Api Ref](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.CfnOutput.html)
+
+```ts
+new CfnOutput(this, "MyTopicArn", { value: myTopic.topicArn });
+```
