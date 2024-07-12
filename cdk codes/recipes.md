@@ -64,6 +64,9 @@ This ensures that each time you deploy this stack, it creates a bucket with a un
 
 ### Cloudfront Origin Access Control Bucket Policy
 
+- block public access
+- no website bucket enabled
+- allow s3:GetObject on bucket/* for principal cloudfront predicated on it being the specific distribution
 ```json
 {
     "Version": "2012-10-17",
