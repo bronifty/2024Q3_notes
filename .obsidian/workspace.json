@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cdk codes/concepts.md",
+                "file": "cdk codes/recipes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cdk codes/concepts.md",
+                "file": "cdk codes/recipes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cdk codes/concepts.md",
+                "file": "cdk codes/recipes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cdk codes/concepts.md"
+                "file": "cdk codes/recipes.md"
               }
             }
           }
@@ -148,45 +148,51 @@
   },
   "active": "645427aee607b54d",
   "lastOpenFiles": [
-    "repos/amazon-cloudfront-functions/verify-jwt/test-objects/invalid-nbe-jwt.json",
-    "repos/amazon-cloudfront-functions/verify-jwt/test-objects/valid-jwt.json",
-    "repos/amazon-cloudfront-functions/verify-jwt/test-objects/missing-jwt.json",
-    "repos/amazon-cloudfront-functions/verify-jwt/test-objects/invalid-jwt.json",
-    "repos/amazon-cloudfront-functions/verify-jwt/test-objects/expired-jwt.json",
-    "repos/amazon-cloudfront-functions/verify-jwt/test-objects",
-    "repos/amazon-cloudfront-functions/verify-jwt/index.js",
-    "repos/amazon-cloudfront-functions/verify-jwt/generate-jwt.sh",
-    "repos/amazon-cloudfront-functions/verify-jwt/README.md",
-    "repos/amazon-cloudfront-functions/verify-jwt",
-    "repos/amazon-cloudfront-functions/url-rewrite-single-page-apps/test-objects/no-file-name.json",
-    "repos/amazon-cloudfront-functions/url-rewrite-single-page-apps/test-objects/file-name-and-extension.json",
-    "repos/amazon-cloudfront-functions/url-rewrite-single-page-apps/README.md",
-    "repos/amazon-cloudfront-functions/redirect-based-on-country/README.md",
-    "repos/amazon-cloudfront-functions/add-true-client-ip-header/README.md",
-    "repos/amazon-cloudfront-functions/add-security-headers/README.md",
-    "repos/amazon-cloudfront-functions/add-origin-header/README.md",
-    "repos/amazon-cloudfront-functions/add-cors-header/README.md",
-    "repos/amazon-cloudfront-functions/add-cache-control-header/README.md",
-    "repos/amazon-cloudfront-functions/README.md",
-    "repos/amazon-cloudfront-functions/CONTRIBUTING.md",
-    "repos/amazon-cloudfront-functions/CODE_OF_CONDUCT.md",
-    "cdk codes/patterns.md",
-    "README.md",
-    "repos/aws-cdk/packages/aws-cdk-lib/aws-cloudfront/README.md",
-    "cdk codes/recipes.md",
-    "cdk codes/api-reference.md",
-    "cdk codes/tutorials.md",
-    "cdk codes/concepts.md",
-    "cdk codes/course/notes.md",
-    "cdk codes/file structure/README.md",
-    "repos/aws-cdk/packages/aws-cdk-lib/aws-cloudfront-origins/README.md",
-    "cdk/patterns.md",
-    "aws/aws developer guide > cloudfront.md",
-    "cdk/dynamodb.md",
-    "cdk/file structure/app-stack.ts.md",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk-lib/cloudformation-include/doc-images/unprocessed-template.png",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk-lib/cloudformation-include/doc-images/processed-template.png",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk-lib/aws-synthetics/images/ui-screenshot.png",
-    "aws-cdk-examples/typescript/api-websocket-lambda-dynamodb/node_modules/aws-cdk-lib/aws-synthetics/images/endpoint-example.png"
+    "fs/README.md",
+    "repos/rsbuild/website/docs/zh/plugins/list/plugin-vue2.mdx",
+    "repos/rsbuild/website/docs/zh/plugins/list/plugin-vue2-jsx.mdx",
+    "repos/rsbuild/website/docs/zh/plugins/list/plugin-vue.mdx",
+    "repos/rsbuild/website/docs/zh/plugins/list/plugin-vue-jsx.mdx",
+    "repos/rsbuild/website/docs/zh/plugins/list/plugin-typed-css-modules.mdx",
+    "repos/rsbuild/website/docs/zh/plugins/list/plugin-type-check.mdx",
+    "repos/rsbuild/website/docs/zh/plugins/list/plugin-svgr.mdx",
+    "repos/rsbuild/website/docs/zh/plugins/list/plugin-svelte.mdx",
+    "repos/rsbuild/website/docs/zh/plugins/list/plugin-stylus.mdx",
+    "repos/rsbuild/website/docs/zh/plugins/list/plugin-styled-components.mdx",
+    "repos/rsbuild/website/docs/public/og-image.png",
+    "repos/rsbuild/website/README.md",
+    "repos/rsbuild/scripts/test-helper/README.md",
+    "repos/rsbuild/packages/create-rsbuild/template-common/README.md",
+    "repos/rsbuild/packages/compat/webpack/README.md",
+    "repos/rsbuild/packages/compat/plugin-swc/README.md",
+    "repos/rsbuild/packages/compat/babel-preset/README.md",
+    "repos/rsbuild/packages/plugin-vue2-jsx/README.md",
+    "repos/rsbuild/packages/plugin-vue2/README.md",
+    "repos/rsbuild/packages/plugin-vue-jsx/README.md",
+    "repos/rsbuild/packages/plugin-vue/README.md",
+    "repos/rsbuild/packages/plugin-typed-css-modules/README.md",
+    "repos/rsbuild/packages/plugin-type-check/README.md",
+    "repos/rsbuild/packages/plugin-svgr/README.md",
+    "repos/rsbuild/packages/plugin-svelte/README.md",
+    "repos/rsbuild/packages/plugin-styled-components/README.md",
+    "repos/rsbuild/packages/plugin-stylus/README.md",
+    "repos/rsbuild/packages/plugin-solid/README.md",
+    "repos/rsbuild/packages/plugin-source-build/README.md",
+    "repos/rsbuild/packages/plugin-sass/README.md",
+    "repos/rsbuild/packages/plugin-rem/README.md",
+    "repos/rsbuild/packages/plugin-react/README.md",
+    "repos/rsbuild/packages/plugin-preact/README.md",
+    "repos/rsbuild/packages/plugin-lightningcss/README.md",
+    "repos/rsbuild/packages/plugin-less/README.md",
+    "repos/rsbuild/packages/plugin-image-compress/README.md",
+    "repos/rsbuild/e2e/cases/svg/svgo-minify-view-box/src/viewBox.svg",
+    "repos/rsbuild/e2e/cases/svg/svgo-minify-id-prefix/src/idPrefix.svg",
+    "repos/rsbuild/e2e/assets/mobile.svg",
+    "repos/rsbuild/e2e/assets/image.png",
+    "repos/rsbuild/e2e/assets/image.jpeg",
+    "repos/rsbuild/e2e/assets/icon.png",
+    "repos/rsbuild/e2e/assets/circle.svg",
+    "repos/rspack-examples/rspress/basic/doc_build/rspress-dark-logo.png",
+    "repos/rspack-examples/rspress/basic/doc_build/rspress-icon.png"
   ]
 }

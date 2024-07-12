@@ -61,3 +61,29 @@ This ensures that each time you deploy this stack, it creates a bucket with a un
 ### HTTP Requests
 - in a file with an http extension type the url and the REST Client (humao) will provide a 'send request' button
 
+
+### Cloudfront Origin Access Control Bucket Policy
+
+```json
+{
+    "Version": "2012-10-17",
+    "Id": "MyPolicy",
+    "Statement": [
+        {
+            "Sid": "PolicyForCloudFrontPrivateContent",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "cloudfront.amazonaws.com"
+            },
+            "Action": "s3:GetObject*",
+            "Resource": "arn:aws:s3:::react-cors-spa-gd333p10yk/*",
+            "Condition": {
+                "StringEquals": {
+                    "AWS:SourceArn": "arn:aws:cloudfront::851725517932:distribution/E1QQLHQKH0E5TA"
+                }
+            }
+        }
+    ]
+}
+```
+
