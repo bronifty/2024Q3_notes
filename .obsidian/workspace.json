@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cdk codes/recipes.md",
+                "file": "db/db.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cdk codes/recipes.md",
+                "file": "db/db.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cdk codes/recipes.md",
+                "file": "db/db.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cdk codes/recipes.md"
+                "file": "db/db.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "645427aee607b54d",
   "lastOpenFiles": [
+    "cdk codes/recipes.md",
+    "db/db.md",
+    "db",
     "fs/README.md",
     "repos/rsbuild/website/docs/zh/plugins/list/plugin-vue2.mdx",
     "repos/rsbuild/website/docs/zh/plugins/list/plugin-vue2-jsx.mdx",
@@ -158,7 +161,6 @@
     "repos/rsbuild/website/docs/zh/plugins/list/plugin-svgr.mdx",
     "repos/rsbuild/website/docs/zh/plugins/list/plugin-svelte.mdx",
     "repos/rsbuild/website/docs/zh/plugins/list/plugin-stylus.mdx",
-    "repos/rsbuild/website/docs/zh/plugins/list/plugin-styled-components.mdx",
     "repos/rsbuild/website/docs/public/og-image.png",
     "repos/rsbuild/website/README.md",
     "repos/rsbuild/scripts/test-helper/README.md",
@@ -183,8 +185,6 @@
     "repos/rsbuild/packages/plugin-react/README.md",
     "repos/rsbuild/packages/plugin-preact/README.md",
     "repos/rsbuild/packages/plugin-lightningcss/README.md",
-    "repos/rsbuild/packages/plugin-less/README.md",
-    "repos/rsbuild/packages/plugin-image-compress/README.md",
     "repos/rsbuild/e2e/cases/svg/svgo-minify-view-box/src/viewBox.svg",
     "repos/rsbuild/e2e/cases/svg/svgo-minify-id-prefix/src/idPrefix.svg",
     "repos/rsbuild/e2e/assets/mobile.svg",
