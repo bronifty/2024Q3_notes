@@ -32,10 +32,5 @@ class AppStack extends cdk.Stack {
       billingMode: cdk.aws_dynamodb.BillingMode.PAY_PER_REQUEST,
       removalPolicy: cdk.RemovalPolicy.DESTROY,
     });
-
-    const myBucket = new cdk.aws_s3.Bucket(this, "MyBucket", {
-      bucketName: myBucketName.valueAsString,
-      removalPolicy: cdk.RemovalPolicy.DESTROY,
-    });
   }
 }
