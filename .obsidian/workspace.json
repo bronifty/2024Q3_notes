@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cdk codes/file structure/app-stack.ts.md",
+                "file": "aws docs/aws-examples.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cdk codes/file structure/app-stack.ts.md",
+                "file": "aws docs/aws-examples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cdk codes/file structure/app-stack.ts.md",
+                "file": "aws docs/aws-examples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cdk codes/file structure/app-stack.ts.md"
+                "file": "aws docs/aws-examples.md"
               }
             }
           }
@@ -148,11 +148,12 @@
   },
   "active": "645427aee607b54d",
   "lastOpenFiles": [
+    "cdk codes/file structure/app-stack.ts.md",
+    "aws docs/aws-examples.md",
     "cdk codes/file structure/fs.ts",
     "cdk codes/file structure/app-stack.ts",
     "cdk codes/patterns.md",
     "repos/aws-cdk/CHANGELOG.md",
-    "cdk codes/file structure/app-stack.ts.md",
     "cdk codes/file structure/fs.ts.md",
     "cdk codes/file structure/cdk.json.md",
     "cdk codes/file structure/app.ts.md",
@@ -168,7 +169,6 @@
     "repos/rsbuild/website/docs/zh/plugins/list/plugin-typed-css-modules.mdx",
     "repos/rsbuild/website/docs/zh/plugins/list/plugin-type-check.mdx",
     "repos/rsbuild/website/docs/zh/plugins/list/plugin-svgr.mdx",
-    "repos/rsbuild/website/docs/zh/plugins/list/plugin-svelte.mdx",
     "repos/rsbuild/website/docs/public/og-image.png",
     "repos/rsbuild/website/README.md",
     "repos/rsbuild/scripts/test-helper/README.md",
