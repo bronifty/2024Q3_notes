@@ -1,5 +1,46 @@
 # aws sdk v3 for js notes app
 
+### bucket and table with params and suffix
+
+```ts
+import * as cdk from "aws-cdk-lib";
+import { Construct } from "constructs";
+
+function getSuffixFromStack(stack: cdk.Stack) {
+  const shortStackId = cdk.Fn.select(2, cdk.Fn.split("/", stack.stackId));
+  const suffix = cdk.Fn.select(4, cdk.Fn.split("-", shortStackId));
+  return suffix;
+}
+
+class AppStack extends cdk.Stack {
+  constructor(scope: Construct, id: string, props?: cdk.StackProps) {
+    super(scope, id, props);
+
+    // dynamically get suffix from stack
+    const suffix = getSuffixFromStack(this);
+    // CfnParameter
+    const myBucketName = new cdk.CfnParameter(this, "myBucketName", {
+      default: "bronifty-cdk-cloudfront-kv",
+    });
+
+    const deploymentBucket = new cdk.aws_s3.Bucket(this, "uiDeploymentBucket", {
+      bucketName: `${myBucketName.valueAsString}-${suffix}`,
+      removalPolicy: cdk.RemovalPolicy.DESTROY,
+      autoDeleteObjects: true,
+    });
+
+    const table = new cdk.aws_dynamodb.Table(this, "notes", {
+      partitionKey: {
+        name: "noteId",
+        type: cdk.aws_dynamodb.AttributeType.STRING,
+      },
+      billingMode: cdk.aws_dynamodb.BillingMode.PAY_PER_REQUEST,
+      removalPolicy: cdk.RemovalPolicy.DESTROY,
+    });
+  }
+}
+```
+
 ### using class pattern with handlers and their permissions passed dynamically
 
 ```ts
@@ -131,7 +172,8 @@ new CfnOutput(this, "MyTopicArn", { value: myTopic.topicArn });
 > CfnParameter gotcha!
 > they can be used to set properties but not the logical id, such as of the bucket. we will have to circle back to this one to set its logical id
 
-> REMINDER! here we set the property bucketName with the CfnParameter, but we can't use it to set the logical id. the course has a workaround for this. 
+> REMINDER! here we set the property bucketName with the CfnParameter, but we can't use it to set the logical id. the course has a workaround for this.
+
 ```ts
 export class CourseStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
@@ -150,4 +192,3 @@ export class CourseStack extends cdk.Stack {
   }
 }
 ```
-
