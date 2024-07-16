@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "db/db.md",
+                "file": "cdk codes/file structure/app-stack.ts.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cors",
+                "query": "removalPolicy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "db/db.md",
+                "file": "cdk codes/file structure/app-stack.ts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "db/db.md",
+                "file": "cdk codes/file structure/app-stack.ts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "db/db.md"
+                "file": "cdk codes/file structure/app-stack.ts.md"
               }
             }
           }
@@ -148,8 +148,17 @@
   },
   "active": "645427aee607b54d",
   "lastOpenFiles": [
-    "cdk codes/recipes.md",
+    "cdk codes/file structure/fs.ts",
+    "cdk codes/file structure/app-stack.ts",
+    "cdk codes/patterns.md",
+    "repos/aws-cdk/CHANGELOG.md",
+    "cdk codes/file structure/app-stack.ts.md",
+    "cdk codes/file structure/fs.ts.md",
+    "cdk codes/file structure/cdk.json.md",
+    "cdk codes/file structure/app.ts.md",
+    "cdk codes/course/notes.md",
     "db/db.md",
+    "cdk codes/recipes.md",
     "db",
     "fs/README.md",
     "repos/rsbuild/website/docs/zh/plugins/list/plugin-vue2.mdx",
@@ -160,7 +169,6 @@
     "repos/rsbuild/website/docs/zh/plugins/list/plugin-type-check.mdx",
     "repos/rsbuild/website/docs/zh/plugins/list/plugin-svgr.mdx",
     "repos/rsbuild/website/docs/zh/plugins/list/plugin-svelte.mdx",
-    "repos/rsbuild/website/docs/zh/plugins/list/plugin-stylus.mdx",
     "repos/rsbuild/website/docs/public/og-image.png",
     "repos/rsbuild/website/README.md",
     "repos/rsbuild/scripts/test-helper/README.md",
@@ -177,14 +185,6 @@
     "repos/rsbuild/packages/plugin-svgr/README.md",
     "repos/rsbuild/packages/plugin-svelte/README.md",
     "repos/rsbuild/packages/plugin-styled-components/README.md",
-    "repos/rsbuild/packages/plugin-stylus/README.md",
-    "repos/rsbuild/packages/plugin-solid/README.md",
-    "repos/rsbuild/packages/plugin-source-build/README.md",
-    "repos/rsbuild/packages/plugin-sass/README.md",
-    "repos/rsbuild/packages/plugin-rem/README.md",
-    "repos/rsbuild/packages/plugin-react/README.md",
-    "repos/rsbuild/packages/plugin-preact/README.md",
-    "repos/rsbuild/packages/plugin-lightningcss/README.md",
     "repos/rsbuild/e2e/cases/svg/svgo-minify-view-box/src/viewBox.svg",
     "repos/rsbuild/e2e/cases/svg/svgo-minify-id-prefix/src/idPrefix.svg",
     "repos/rsbuild/e2e/assets/mobile.svg",
