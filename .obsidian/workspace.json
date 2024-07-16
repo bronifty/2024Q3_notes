@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aws docs/aws-examples.md",
+                "file": "cdk codes/course/notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aws docs/aws-examples.md",
+                "file": "cdk codes/course/notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aws docs/aws-examples.md",
+                "file": "cdk codes/course/notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "aws docs/aws-examples.md"
+                "file": "cdk codes/course/notes.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "645427aee607b54d",
   "lastOpenFiles": [
-    "cdk codes/file structure/app-stack.ts.md",
     "aws docs/aws-examples.md",
+    "cdk codes/file structure/app-stack.ts.md",
     "cdk codes/file structure/fs.ts",
     "cdk codes/file structure/app-stack.ts",
     "cdk codes/patterns.md",

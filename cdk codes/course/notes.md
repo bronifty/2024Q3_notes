@@ -8,7 +8,7 @@ cdk init app --language typescript
 cdk bootstrap
 cdk synth
 cdk diff
-cdk deploy
+npx cdk deploy --require-approval never
 cdk destroy
 
 ```
