@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cdk codes/course/notes.md",
+                "file": "obsidian_2024Q2/not_web_deploys/deploy-vite-ssr/cdk.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "removalPolicy",
+                "query": "shamefully",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cdk codes/course/notes.md",
+                "file": "obsidian_2024Q2/not_web_deploys/deploy-vite-ssr/cdk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cdk codes/course/notes.md",
+                "file": "obsidian_2024Q2/not_web_deploys/deploy-vite-ssr/cdk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cdk codes/course/notes.md"
+                "file": "obsidian_2024Q2/not_web_deploys/deploy-vite-ssr/cdk.md"
               }
             }
           }
@@ -148,51 +148,51 @@
   },
   "active": "645427aee607b54d",
   "lastOpenFiles": [
-    "aws docs/aws-examples.md",
-    "cdk codes/file structure/app-stack.ts.md",
-    "cdk codes/file structure/fs.ts",
-    "cdk codes/file structure/app-stack.ts",
-    "cdk codes/patterns.md",
-    "repos/aws-cdk/CHANGELOG.md",
-    "cdk codes/file structure/fs.ts.md",
-    "cdk codes/file structure/cdk.json.md",
-    "cdk codes/file structure/app.ts.md",
-    "cdk codes/course/notes.md",
-    "db/db.md",
-    "cdk codes/recipes.md",
-    "db",
-    "fs/README.md",
-    "repos/rsbuild/website/docs/zh/plugins/list/plugin-vue2.mdx",
-    "repos/rsbuild/website/docs/zh/plugins/list/plugin-vue2-jsx.mdx",
-    "repos/rsbuild/website/docs/zh/plugins/list/plugin-vue.mdx",
-    "repos/rsbuild/website/docs/zh/plugins/list/plugin-vue-jsx.mdx",
-    "repos/rsbuild/website/docs/zh/plugins/list/plugin-typed-css-modules.mdx",
-    "repos/rsbuild/website/docs/zh/plugins/list/plugin-type-check.mdx",
-    "repos/rsbuild/website/docs/zh/plugins/list/plugin-svgr.mdx",
+    "obsidian_2024Q2/web-deploys/bundling/README.md",
+    "aws docs/apig and lambda tutorials.md",
+    "obsidian_2024Q2/not_web_deploys/aws/aws-data/security/config",
+    "obsidian_2024Q2/not_web_deploys/react/facebook-react/rsc/patterns.md",
+    "obsidian_2024Q2/not_web_deploys/git/github/github_actions/github-actions.pdf",
+    "obsidian_2024Q2/not_web_deploys/git/github/github_actions/github-actions.md",
+    "obsidian_2024Q2/not_web_deploys/git/github/github_actions/git-review.md",
+    "obsidian_2024Q2/not_web_deploys/cdk/cdk/udemy/debugging and environment.md",
+    "obsidian_2024Q2/not_web_deploys/cdk/cdk/udemy/cdk-course.md",
+    "obsidian_2024Q2/not_web_deploys/cdk/cdk/media/cdk1.png",
+    "obsidian_2024Q2/not_web_deploys/cdk/cdk/media/cdk-diff.png",
+    "obsidian_2024Q2/not_web_deploys/cdk/cdk/media/aws-cdk-security.png",
+    "obsidian_2024Q2/not_web_deploys/cdk/cdk/focus-otter/focus-otter.md",
+    "obsidian_2024Q2/not_web_deploys/aws/aws-data/security/commands",
+    "obsidian_2024Q2/web-deploys/lambda/content/step-1 handler running in a lambda with fs.md",
+    "obsidian_2024Q2/not_web_deploys/vike/vite-ssr/comparison of vite-ssr with remix.md",
+    "obsidian_2024Q2/not_web_deploys/vike/vite-ssr/README.md",
+    "obsidian_2024Q2/not_web_deploys/vike/telefunc/remote-functions.md",
+    "obsidian_2024Q2/not_web_deploys/vike/brillout-react-stream/res.flush.md",
+    "obsidian_2024Q2/not_web_deploys/react/facebook-react/yalc.md",
+    "obsidian_2024Q2/not_web_deploys/react/facebook-react/rsc",
+    "obsidian_2024Q2/not_web_deploys/react/facebook-react/redwoodjs.md",
+    "obsidian_2024Q2/not_web_deploys/react/facebook-react/jacob-ebey.md",
+    "obsidian_2024Q2/not_web_deploys/react/facebook-react/ben holmes whiteboard guy.md",
+    "obsidian_2024Q2/not_web_deploys/react/epic-react/faqs.md",
+    "obsidian_2024Q2/not_web_deploys/git/media/gitops.png",
+    "obsidian_2024Q2/not_web_deploys/git/media/Commands.md",
+    "obsidian_2024Q2/not_web_deploys/git/github/slides-2022.pdf",
+    "obsidian_2024Q2/not_web_deploys/git/github/github_actions",
+    "obsidian_2024Q2/not_web_deploys/git/github/Github.md",
+    "obsidian_2024Q2/not_web_deploys/cdk/esbuild/README.md",
+    "obsidian_2024Q2/not_web_deploys/cdk/cdk/udemy",
+    "obsidian_2024Q2/not_web_deploys/cdk/cdk/serverless-express.md",
+    "obsidian_2024Q2/not_web_deploys/cdk/cdk/media",
+    "obsidian_2024Q2/not_web_deploys/cdk/cdk/focus-otter",
+    "obsidian_2024Q2/not_web_deploys/cdk/cdk/cicd.md",
+    "obsidian_2024Q2/not_web_deploys/cdk/cdk/Elad.md",
+    "obsidian_2024Q2/not_web_deploys/cdk/cdk/Docs.md",
+    "obsidian_2024Q2/not_web_deploys/cdk/cdk/CDK Day 2023.md",
+    "obsidian_2024Q2/not_web_deploys/aws/aws-data/security",
     "repos/rsbuild/website/docs/public/og-image.png",
-    "repos/rsbuild/website/README.md",
-    "repos/rsbuild/scripts/test-helper/README.md",
-    "repos/rsbuild/packages/create-rsbuild/template-common/README.md",
-    "repos/rsbuild/packages/compat/webpack/README.md",
-    "repos/rsbuild/packages/compat/plugin-swc/README.md",
-    "repos/rsbuild/packages/compat/babel-preset/README.md",
-    "repos/rsbuild/packages/plugin-vue2-jsx/README.md",
-    "repos/rsbuild/packages/plugin-vue2/README.md",
-    "repos/rsbuild/packages/plugin-vue-jsx/README.md",
-    "repos/rsbuild/packages/plugin-vue/README.md",
-    "repos/rsbuild/packages/plugin-typed-css-modules/README.md",
-    "repos/rsbuild/packages/plugin-type-check/README.md",
-    "repos/rsbuild/packages/plugin-svgr/README.md",
-    "repos/rsbuild/packages/plugin-svelte/README.md",
-    "repos/rsbuild/packages/plugin-styled-components/README.md",
     "repos/rsbuild/e2e/cases/svg/svgo-minify-view-box/src/viewBox.svg",
     "repos/rsbuild/e2e/cases/svg/svgo-minify-id-prefix/src/idPrefix.svg",
     "repos/rsbuild/e2e/assets/mobile.svg",
     "repos/rsbuild/e2e/assets/image.png",
-    "repos/rsbuild/e2e/assets/image.jpeg",
-    "repos/rsbuild/e2e/assets/icon.png",
-    "repos/rsbuild/e2e/assets/circle.svg",
-    "repos/rspack-examples/rspress/basic/doc_build/rspress-dark-logo.png",
-    "repos/rspack-examples/rspress/basic/doc_build/rspress-icon.png"
+    "repos/rsbuild/e2e/assets/image.jpeg"
   ]
 }
